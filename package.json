@@ -1,0 +1,27 @@
+{
+  "name": "assignment45",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CRUD application with with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackyMacewan/CMPT315_Assignment_45.git"
+  },
+  "keywords": [
+    "cmpt315-assignment45"
+  ],
+  "author": "Jacky Ly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackyMacewan/CMPT315_Assignment_45/issues"
+  },
+  "homepage": "https://github.com/JackyMacewan/CMPT315_Assignment_45#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  }
+}
