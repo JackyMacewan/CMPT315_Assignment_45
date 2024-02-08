@@ -18,5 +18,5 @@ app.get("/", (req, res, next) => {
 app.use("/monsters", router);  // http://localhost:3000/monsters/monsters
 
 app.listen(port, function () {
-	console.log(`🚀 Fire app listening on port ${port}!`); 
+	console.log(`App is listening on port ${port}!`); 
 });

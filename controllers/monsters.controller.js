@@ -8,7 +8,7 @@ import { getAllMonstersFromRepo, getMonsterFromRepo, addMonsterToRepo, deleteMon
 export const getMonsters = async function(req, res, next) {
     try {
         const monsters = await getAllMonstersFromRepo();
-        res.json({"monsters": monsters});
+        res.status(200).json({ status: 200, "monsters": monsters}); //200 = success
     } catch {
         res.status(400).json({ status: 400, message: e.message })
     }
