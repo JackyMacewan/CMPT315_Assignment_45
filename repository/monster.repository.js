@@ -1,5 +1,14 @@
 import Monster from "../models/monster.model.js";
 
+export const getAllMonstersFromRepo = async function() {
+    try {
+        const monsters = await Monster.find();
+        return monsters;
+    } catch {
+        throw error("Error while fetching monsters");
+    }
+}
+
 //Contain methods for db CRUD interaction
 export const getMonsterFromRepo = async function(query) { //query is an object
     try {

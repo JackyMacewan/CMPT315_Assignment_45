@@ -13,5 +13,4 @@ const fetchData = async() => {
     console.log("done");
 }
 
-
 fetchData();
