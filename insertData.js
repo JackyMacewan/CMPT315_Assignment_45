@@ -13,4 +13,5 @@ const fetchData = async() => {
     console.log("done");
 }
 
-fetchData();
+const maxID = await Monster.find().sort({"id": -1}).limit(1);
+console.log(maxID[0].id)

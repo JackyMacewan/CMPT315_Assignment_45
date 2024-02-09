@@ -15,7 +15,7 @@ app.get("/", (req, res, next) => {
     res.status(200).json({ message: "app is running" });
 });
 
-app.use("/monsters", router);  // http://localhost:3000/monsters/monsters
+app.use("/monsters", router);  // http://localhost:3000/monsters
 
 app.listen(port, function () {
 	console.log(`App is listening on port ${port}!`); 
